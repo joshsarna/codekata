@@ -17,10 +17,10 @@ smallest_spread = 1000
     smallest_spread = spread
     smallest_spread_day = array[index]
   end
-    index += 13
-    if array[index] > 1000
-      index += 1
-    end
+  index += 13
+  if array[index] > 1000
+    index += 1
+  end
 end
 
 # Print results
